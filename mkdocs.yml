@@ -1,0 +1,14 @@
+site_name: مستندات Harmony
+theme:
+  name: material
+  language: fa
+  font:
+    text: Vazirmatn
+    code: Fira Code
+
+nav:
+  - خانه: index.md
+  - احراز هویت: authentication.md
+  - لیستینگ‌ها: listings.md
+  - محدودیت‌ها: rate-limits.md
+  - سوالات متداول: faq.md

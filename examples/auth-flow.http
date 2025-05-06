@@ -1,0 +1,12 @@
+### Authorize User
+GET https://sheypoor.com/oauth/authorize?client_id=...&response_type=code
+
+### Exchange Code for Token
+POST https://sheypoor.com/oauth/token
+Content-Type: application/x-www-form-urlencoded
+
+grant_type=authorization_code&
+code=CODE_FROM_ABOVE&
+redirect_uri=YOUR_REDIRECT_URI&
+client_id=YOUR_CLIENT_ID&
+client_secret=YOUR_SECRET

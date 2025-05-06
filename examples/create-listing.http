@@ -1,0 +1,12 @@
+### Create a New Listing
+POST https://sheypoor.com/api/listings
+Authorization: Bearer ACCESS_TOKEN
+Content-Type: application/json
+
+{
+  "title": "فروش دوچرخه",
+  "description": "دوچرخه کوهستانی در حد نو",
+  "price": 3000000,
+  "category": "ورزشی",
+  "location": "اصفهان، مرکز"
+}

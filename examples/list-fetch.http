@@ -1,0 +1,3 @@
+### Fetch Listings
+GET https://sheypoor.com/api/listings
+Authorization: Bearer ACCESS_TOKEN
